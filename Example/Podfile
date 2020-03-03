@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'SSKit_Example' do
+  pod 'SSKit', :path => '../'
+
+  target 'SSKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
