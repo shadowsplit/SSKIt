@@ -1,0 +1,6 @@
+framework module SSKit {
+  umbrella header "SSKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
